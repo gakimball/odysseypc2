@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odyssey Computers Indianapolis</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap" />
+  <link rel="icon" sizes="64x64" href="./favicon-64.png" />
+  <link rel="icon" sizes="32x32" href="./favicon-32.png" />
+  <link rel="icon" sizes="16x16" href="./favicon-16.png" />
+  <meta name="description" content="Odyssey Computers provides on-site and remote computer service in the greater Indianapolis area.">
+  <style>
+    body {
+      font-family: 'Manrope', sans-serif;
+      margin: 0;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .container {
+      max-width: 650px;
+      margin-inline: auto;
+      padding-inline: 16px;
+      padding-block: 32px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 32px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 223px;
+      margin-bottom: 16px;
+    }
+
+    .text {
+      font-size: 20px;
+      margin-block: 0;
+    }
+
+    .text-title {
+      margin-bottom: 12px;
+    }
+
+    .text-large {
+      font-size: 26px;
+    }
+
+    .text-bold {
+      font-weight: 800;
+    }
+
+    .card {
+      margin-top: 32px;
+    }
+
+    .icon {
+      height: 28px;
+    }
+
+    .photo {
+      max-width: 100%;
+      margin-top: 32px;
+    }
+
+    @media (min-width: 650px) {
+      .container {
+        padding-top: 64px;
+      }
+
+      .header {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: right;
+        margin-bottom: 64px;
+      }
+
+      .logo {
+        margin-bottom: 0;
+      }
+
+      .body {
+        position: relative;
+        max-width: 480px;
+      }
+
+      .card {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+      }
+
+      .icon {
+        margin-right: 16px;
+      }
+
+      .icon-2 {
+        margin-left: -4px;
+      }
+
+      .photo {
+        position: absolute;
+        top: -70px;
+        left: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="./logo.svg" alt="Odyssey Computers" class="logo">
+      <div>
+        <p class="text">
+          call or text
+        </p>
+        <p class="text text-large text-bold">
+          317-823-2300
+        </p>
+      </div>
+    </div>
+
+    <div class="body">
+      <p class="text text-large text-bold text-title">
+        On-site and remote computer service in the greater Indianapolis area.
+      </p>
+      <p class="text">
+        Our retail location on W Broadway Ave has closed, but we’re still here to help!
+      </p>
+
+      <div class="card">
+        <img src="./briefcase.svg" class="icon icon-1" alt="">
+        <div>
+          <p class="text text-bold">
+            On-site repairs
+          </p>
+          <p class="text text">
+            Call for more details
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./laptop-medical.svg" class="icon icon-2" alt="">
+        <div>
+          <p class="text text-bold">
+            Remote services
+          </p>
+          <p class="text text">
+            We'll help you troubleshoot
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./screwdriver-wrench.svg" class="icon icon-3" alt="">
+        <div>
+          <p class="text text-bold">
+            Custom PC builds
+          </p>
+          <p class="text text">
+            For business, gaming, and more
+          </p>
+        </div>
+      </div>
+
+      <img src="./photo.png" alt="" class="photo">
+    </div>
+  </div>
+</body>
+</html>
